@@ -1,0 +1,65 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.G-Logo{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.title-Grover{
+ display: inline;
+ margin-left: 5px;
+}
+
+.header-button{
+ margin: auto;
+}
+
+.button-menu{
+    border: none;
+    outline: none ;
+    background-color: #ffffff;
+    color: #4D4D4D;
+    size: 16px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+button:hover{
+    color: #F55253;
+}
+
+.header-search-box{
+ display: inline;
+ margin-right: 100px;
+ background-color: #ffffff;
+ height: 30px;
+ display: flex;
+ justify-content: center;
+ padding: 5px;
+ border-radius: 40px;
+}
+
+.search-icon{
+
+}
+
+.header-input{
+ float: center;
+ background: none;
+ border: none;
+ border-right: 1px color#F2F2F2;
+ outline: none;
+}
+
+.Search-Basket{
+display: inline;
+
+}
