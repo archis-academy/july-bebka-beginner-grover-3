@@ -1,11 +1,14 @@
-body,
-html{
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.main-container{
+.main-service{
     background-color: #FEF5F5 ;
+    width: 1300px;
+    height: 760px;
+    font-family: "Poppins", sans-serif;
 }
 
 .title-small{
@@ -33,6 +36,8 @@ margin-bottom: 70px;
     gap: 10px;
     width: 300px;
     height: 310px;
+    align-items: center;
+    justify-content: center;
     
   
 }
@@ -40,10 +45,36 @@ margin-bottom: 70px;
 .image{
     margin-top: 54px;
     margin-bottom: 38px;
+    width: 90px;
+    height: 80px;
 }
 
-.flexbox{
+.box{
     display:flex;
     gap: 50px;
     justify-content: center;
+}
+
+.card-title{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.card-content{
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 243px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.back-card{
+    width: 300px;
+    height: 330px;
+    background-color: #FE6A6A;
+    border-radius: 12px;
+    position: absolute;
+    left: 25px;
+    top:-10px;
+    transform: rotate(-3deg)
 }
