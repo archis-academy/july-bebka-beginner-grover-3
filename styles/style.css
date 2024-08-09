@@ -84,3 +84,45 @@
     
 }
 /* Cta Section End  */
+
+/*Footer Section start*/
+.footer-section-card {
+    margin: 50px 100px;
+    gap: 20px;
+  }
+  
+.footer-section-menu-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+.footer-section-menu {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+
+    gap: 20px;
+  }
+.footer-section-p{
+    padding-top: 100px;
+    margin-left: -140px;
+}
+.footer-section-card-container {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+.Footer-section-container{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+    
+  
+.footer-section-card-title {
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 20px;
+  }
