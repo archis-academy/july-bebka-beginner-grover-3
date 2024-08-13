@@ -4,6 +4,7 @@
   margin-block: auto;
 }
 
+/*Header-Section Start */
 .header {
   padding-block: 40px;
   display: flex;
@@ -97,3 +98,4 @@
 .header .search-Basket {
   padding-left: 15px;
 }
+/*Header-Section End*/
