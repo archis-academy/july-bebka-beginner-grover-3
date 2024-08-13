@@ -19,7 +19,6 @@ body {
     width: 664px;
     height: 738px;
 }
-
 .circle-container {
     position: relative;
     width: 598px;
@@ -27,18 +26,15 @@ body {
     margin-top: 171px;
     margin-left: 136px;
 }
-
 .stroke-svg {
     border: solid #F9BA45
     position: absolute;
     width: 419px;
     height: 286px;
     left: 225px;
-    top: 415px;
-    
+    top: 415px;   
     left: 50%;
     transform: translate(-50%, -50%) rotate(180deg);
- 
     border-radius: 0 0 50% 50%; 
     background: transparent;
     z-index: 1; 
