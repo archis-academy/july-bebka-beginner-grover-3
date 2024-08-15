@@ -9,8 +9,8 @@
   padding-block: 40px;
   display: flex;
   font-family: "Poppins", sans-serif;
-  flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .header .G-Logo {
