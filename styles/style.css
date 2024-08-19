@@ -6,11 +6,16 @@
 
 /*Header-Section Start */
 .header {
+  margin: auto;
   padding-block: 40px;
   display: flex;
   font-family: "Poppins", sans-serif;
   justify-content: space-around;
   align-items: center;
+}
+
+.header .responsiveness-with-650px {
+  display: none;
 }
 
 .header .G-Logo {
@@ -206,42 +211,82 @@
 
 @media screen and (max-width: 650px) {
   .header {
-    justify-content: space-around;
-    gap: 20px;
     padding-block: 20px;
-    padding-left: 5px;
     width: 96%;
-    max-width: 600px;
+    max-width: 650px;
+    flex-direction: column;
+    gap: 15px;
   }
-  
+
   .header .G-Logo {
+    display: none;
   }
-  
+
+  .header .responsiveness-with-650px {
+    max-width: 650px;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+  }
+
+  .header .G-Logo-responsiveness {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .header-search-box-responsiveness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.04);
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .header .product-number-responsiveness {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    width: 16px;
+    height: 16px;
+    background-color: #f54b4b;
+    color: #fffdfd;
+    font-size: 12px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    box-shadow: -4px 4px 15px #ee4343;
+  }
+
   .header .title-Grover {
-    font-size: 20px;
-    margin-left: 2px;
+    font-size: 25px;
+    margin-left: 4px;
   }
-  
+
   .header .header-list {
     height: 25px;
-    width: 250px;
-    gap: 1px;
+    width: 500px;
   }
-  
+
   .header .menu-section {
     font-size: 14px;
-    font-weight: 450;
+    font-weight: 600;
   }
-  
+
   .header .menu-section:hover {
     font-weight: 500;
   }
-  
-  .header .header-search-box {
-    height: 35px;
 
+  .header .header-search-box {
+    display: none;
   }
-  
+
   .header .product-number {
     left: 200px;
     bottom: 27px;
@@ -249,21 +294,103 @@
     height: 20px;
     font-size: 11px;
   }
-  
+
   .header .search-icon {
-  
   }
-  
+
   .header .header-input {
     padding-left: 5px;
-   
   }
-  
+
   .header .search-Basket {
     padding-left: 1px;
   }
-
 }
+
+@media screen and (max-width: 575px) {
+  .header .header-list {
+    height: 25px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    padding-block: 20px;
+  }
+  
+  .header .responsiveness-with-650px {
+    display: none;
+  }
+  
+  .header .G-Logo {
+    display: flex;
+  }
+
+  .header .G-Logo-G{
+    width: 40px;
+  }
+  
+  .header .title-Grover {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  
+  .header .header-list {
+    width: 350px;
+  }
+  
+  .header .menu-section {
+  }
+  
+  .header .menu-section:hover {
+  }
+  
+  .header .header-search-box {
+    display: flex;   
+    width: 250px;
+    height: 30px;
+    position: relative;
+  }
+  
+  .header .product-number {
+    position: absolute;
+    left: 225px;
+    bottom: 25px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  
+  .header .search-icon {
+  }
+  
+  .header .header-input {
+  }
+  
+  .header .search-Basket {
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header .G-Logo-G{
+    width: 35px;
+  }
+  
+  .header .title-Grover {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .header .header-list {
+    width: 300px;
+  }
+}
+
 /*Header-Section End*/
 
 /* Melike/BE-8/main-service-start */
