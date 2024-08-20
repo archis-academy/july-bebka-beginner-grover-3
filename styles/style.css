@@ -107,11 +107,11 @@
   max-width: 1300px;
   font-family: "Poppins", sans-serif;
   margin: 80px auto;
+  padding-block: 100px;
 }
 
 .main-service .title-container {
   margin-inline: auto;
-  padding-top: 100px;
   max-width: 650px;
 }
 
@@ -140,7 +140,6 @@
   height: 310px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 130px;
 }
 
 .main-service .image {
@@ -189,9 +188,66 @@
 
 /* Melike/BE-8/main-service-section-responsiveness-start */
 
+@media (max-width: 1400px) {
+  .main-service {
+    margin-inline: 50px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .main-service {
+    margin-inline: 20px;
+    padding-block: 60px;
+  }
+
+  .main-service .title-big {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .main-service .card {
+    width: 250px;
+    height: 250px;
+  }
+  .main-service .back-card {
+    width: 250px;
+    height: 270px;
+  }
+  .main-service .image {
+    margin-top: 54px;
+    margin-bottom: 0;
+    width: 90px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 950px) {
+  .main-service .box {
+    flex-wrap: wrap;
+  }
+  .main-service .title-big {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .main-service .card {
+    width: 200px;
+    height: 200px;
+  }
+  .main-service .back-card {
+    width: 200px;
+    height: 220px;
+  }
+  .main-service .card-title {
+    font-size: 18px;
+  }
+  .main-service .card-content {
+    max-width: 200px;
+  }
+}
+
 @media (max-width: 750px) {
   .main-service .box {
     flex-direction: column;
+    align-items: center;
   }
   .main-service .card {
     margin-bottom: 30px;
