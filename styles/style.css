@@ -394,18 +394,18 @@
 /*Header-Section End*/
 
 /* Melike/BE-8/main-service-start */
+
 .main-service {
   background-color: #fef5f5;
-  width: 1300px;
-  height: 760px;
+  max-width: 1300px;
   font-family: "Poppins", sans-serif;
   margin: 80px auto;
+  padding-block: 100px;
 }
 
 .main-service .title-container {
   margin-inline: auto;
-  padding-top: 100px;
-  width: 650px;
+  max-width: 650px;
 }
 
 .main-service .title-small {
@@ -478,6 +478,68 @@
   z-index: -1;
 }
 /* Melike/BE-8/main-service-finish */
+
+/* Melike/BE-8/main-service-section-responsiveness-start */
+
+@media (max-width: 1400px) {
+  .main-service {
+    margin-inline: 50px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .main-service {
+    margin-inline: 20px;
+    padding-block: 60px;
+  }
+
+  .main-service .title-big {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .main-service .card {
+    width: 250px;
+    height: 250px;
+  }
+  .main-service .back-card {
+    width: 250px;
+    height: 270px;
+  }
+  .main-service .image {
+    margin-top: 54px;
+    margin-bottom: 0;
+    width: 90px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 950px) {
+  .main-service .box {
+    flex-wrap: wrap;
+    padding-inline: 40px;
+  }
+  .main-service .title-big {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .main-service .card {
+    width: 200px;
+    height: 200px;
+  }
+  .main-service .back-card {
+    width: 200px;
+    height: 220px;
+  }
+  .main-service .card-title {
+    font-size: 18px;
+  }
+  .main-service .card-content {
+    max-width: 200px;
+  }
+}
+
+
+/* Melike/BE-8/main-service-section-responsiveness-end */
 
 /* Cta Section Start */
 .cta-section {
