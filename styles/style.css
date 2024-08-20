@@ -223,6 +223,7 @@
 @media (max-width: 950px) {
   .main-service .box {
     flex-wrap: wrap;
+    padding-inline: 40px;
   }
   .main-service .title-big {
     font-size: 20px;
@@ -244,15 +245,6 @@
   }
 }
 
-@media (max-width: 750px) {
-  .main-service .box {
-    flex-direction: column;
-    align-items: center;
-  }
-  .main-service .card {
-    margin-bottom: 30px;
-  }
-}
 
 /* Melike/BE-8/main-service-section-responsiveness-end */
 
