@@ -3,12 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
 /*-----------------------# Hero Section-----------------------------------*/
 
 .hero-container {
@@ -133,16 +127,38 @@ body {
 }
  /* Hero Section Responsivness Start */
 /* Media Queries for Responsive Design */
+@media (max-width: 1300px) {
+    .hero-container .groceries-title {
+        font-size: clamp(30px, 8vw, 64px);
+        line-height: 70px;
+    }
+    .hero-container .hero-left-section {
+        gap: 24px;
+    }
+
+}
+@media (max-width: 1100px) {
+    .hero-container .groceries-title {
+        font-size: clamp(26px, 8vw, 60px);
+        line-height: 64px;
+    }
+    .hero-container .hero-left-section {
+        gap: 20px;
+    }
+
+}
 
 /* Tablet Screens */
 @media (max-width: 992px) {
     .hero-container {
         padding: 30px 50px;
     }
-
+    .hero-container .hero-left-section {
+        gap: 14px;
+    }
     .hero-container .groceries-title {
-        font-size: clamp(30px, 8vw, 64px);
-        line-height: clamp(40px, 8vw, 78px);
+        font-size: clamp(20px, 8vw, 48px);
+        line-height: 50px;
     }
 
     .hero-container .ordernow-button {
@@ -164,8 +180,9 @@ body {
 /* Mobile Screens */
 @media (max-width: 768px) {
     .hero-container {
-        flex-direction: column;
-        padding: 20px 20px;
+        flex-direction: column-reverse;
+        padding: 50px;
+        gap: 30px;
     }
 
     .hero-container .hero-right-section {
@@ -173,9 +190,8 @@ body {
     }
 
     .hero-container .groceries-title {
-        font-size: clamp(28px, 10vw, 50px);
-        line-height: clamp(35px, 10vw, 60px);
-        text-align: center; /* Center align text on mobile */
+        font-size: clamp(16px, 10vw, 40px);
+        line-height: 40px;
         max-width: 100%;
     }
 
@@ -208,7 +224,7 @@ body {
 /* Small Mobile Screens */
 @media (max-width: 480px) {
     .hero-container {
-        padding: 10px 10px;
+        padding: 40px;
     }
 
     .hero-container .groceries-title {
