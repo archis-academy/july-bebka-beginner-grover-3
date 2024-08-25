@@ -427,6 +427,14 @@
     top: 63px;
     gap: 0px;
 }
+.hero-container .strawberry-icon {
+    width: 30px;
+}
+
+.hero-container img.strawberry-img {
+    width: 100%;
+    height: 100%;
+}
 
 .hero-container .groceries-title {
     max-width: 578px;
