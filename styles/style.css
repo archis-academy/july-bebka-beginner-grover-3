@@ -1019,106 +1019,173 @@
   }
 }
 /* ===== Cta Section Respnsiveness End =====  */
+
 /* Footer Section Start */
 .Footer-section-container {
     display: flex;
     justify-content: space-between;
     padding: 50px 100px;
     font-family: "Poppins", sans-serif;
-}
-
-.footer-section-menu {
+  }
+  
+  .footer-section-menu {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.footer-section-menu-logo {
+  }
+  
+  .footer-section-menu-logo {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.footer-section-menu-logo h5 {
+  }
+  
+  .footer-section-menu-logo h5 {
     font-size: 24px;
     font-weight: 700;
     color: #333;
-}
-
-.footer-section-p {
+  }
+  
+  .footer-section-p {
     width: 250px;
     font-size: 16px;
     color: #676767;
-}
-
-.footer-section-card-container {
+  }
+  
+  .footer-section-card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-}
-
-.footer-section-card {
+  }
+  
+  .footer-section-card {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.footer-section-card-title {
+  }
+  
+  .footer-section-card-title {
     margin-bottom: 20px;
     justify-content: space-between;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
     color: #333;
-}
-
-.footer-section-card-subs {
+  }
+  
+  .footer-section-card-subs {
     line-height: 2.2;
     width: 200px;
     font-size: 16px;
-
-}
-
-.footer-section-card-sub {
-
+  }
+  
+  .footer-section-card-sub {
     width: 200px;
     font-size: 16px;
-
-}
-
-.footer-section-card p {
+  }
+  
+  .footer-section-card p {
     margin: 0;
     cursor: pointer;
-}
-
-.footer-bottom {
+  }
+  
+  .footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
-    background-color: #f8f8f8;
     border-top: 1px solid #e0e0e0;
-}
-
-.footer-bottom .footer-left {
+  }
+  
+  .footer-bottom .footer-left {
     font-size: 14px;
     color: #676767;
     font-family: "Poppins", sans-serif;
-}
-
-.footer-bottom .footer-right {
+  }
+  
+  .footer-bottom .footer-right {
     display: flex;
     gap: 20px;
     font-family: "Poppins", sans-serif;
-}
-
-.footer-bottom .footer-right a {
+  }
+  
+  .footer-bottom .footer-right a {
     font-size: 14px;
     color: #676767;
     text-decoration: none;
-}
-
-.footer-bottom .footer-right a:hover {
+  }
+  
+  .footer-bottom .footer-right a:hover {
     text-decoration: underline;
-}
-/* Footer Section End */
+  }
+  /* Footer Section End */
+  
+  /* Melike-Footer Section Responsiveness start*/
+  
+  @media (max-width: 1200px) {
+    .Footer-section-container {
+      padding: 25px 50px;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+  
+    .footer-section-menu {
+      margin-bottom: 2em;
+    }
+  
+    .footer-bottom {
+      flex-wrap: wrap;
+    }
+  
+    .footer-section-card-container {
+      gap: 10px;
+      justify-content: center;
+    }
+  
+    .footer-section-card {
+      gap: 5px;
+    }
+    .footer-bottom {
+      padding: 10px 50px;
+      justify-content: space-around;
+    }
+  }
+  
+  @media (max-width: 870px) {
+    .Footer-section-container {
+      padding: 20px;
+    }
+  
+    .footer-bottom {
+      padding: 0;
+      height: 80px;
+    }
+    .footer-section-card {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .footer-section-menu-logo h5 {
+      font-size: 20px;
+    }
+    .footer-section-p {
+      font-size: 14px;
+    }
+    .footer-section-card-title {
+      font-size: 16px;
+    }
+    .footer-section-card-subs {
+      font-size: 14px;
+    }
+  
+    .footer-bottom .footer-left {
+      font-size: 12px;
+    }
+    .footer-bottom .footer-right a {
+      font-size: 12px;
+    }
+  }
+  
+  /* Melike-Footer Section Responsiveness end*/
