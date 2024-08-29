@@ -645,6 +645,7 @@
 .feature-section .image-and-card {
     width: 664px;
 }
+    
 
 .feature-section .card-wrapper {
     position: absolute;
@@ -762,6 +763,25 @@
     margin-top: 10px;
 }
 /*feature-section finish*/
+
+/* simla/BE-3-Feature-Section-1-Responsiveness Start */
+@media screen and (max-width: 1200px) {
+    .feature-section {
+        flex-direction: column; 
+        display: flex;
+        margin-top: 350px;
+    }
+}
+@media screen and (max-width: 800px) {
+  .feature-section {
+    flex-direction: column; 
+    align-items: center;  
+    max-width: 100px; 
+}
+   
+}
+/* simla/BE-3-Feature-Section-1-Responsiveness Finish */
+
 /* Melike/BE-8/main-service-start */
 
 .main-service {
